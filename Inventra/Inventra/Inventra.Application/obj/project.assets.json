@@ -1,0 +1,121 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Inventra.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Inventra.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Inventra.Domain.dll": {}
+        }
+      },
+      "Inventra.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Inventra.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Inventra.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Inventra.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Inventra.Domain/Inventra.Domain.csproj",
+      "msbuildProject": "../Inventra.Domain/Inventra.Domain.csproj"
+    },
+    "Inventra.Shared/1.0.0": {
+      "type": "project",
+      "path": "../Inventra.Shared/Inventra.Shared.csproj",
+      "msbuildProject": "../Inventra.Shared/Inventra.Shared.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Inventra.Domain >= 1.0.0",
+      "Inventra.Shared >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Avinash Kumar\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Projects\\Inventory & Order Management\\Inventra\\Inventra\\Inventra.Application\\Inventra.Application.csproj",
+      "projectName": "Inventra.Application",
+      "projectPath": "D:\\Projects\\Inventory & Order Management\\Inventra\\Inventra\\Inventra.Application\\Inventra.Application.csproj",
+      "packagesPath": "C:\\Users\\Avinash Kumar\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\Inventory & Order Management\\Inventra\\Inventra\\Inventra.Application\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Avinash Kumar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "D:\\Projects\\Inventory & Order Management\\Inventra\\Inventra\\Inventra.Domain\\Inventra.Domain.csproj": {
+              "projectPath": "D:\\Projects\\Inventory & Order Management\\Inventra\\Inventra\\Inventra.Domain\\Inventra.Domain.csproj"
+            },
+            "D:\\Projects\\Inventory & Order Management\\Inventra\\Inventra\\Inventra.Shared\\Inventra.Shared.csproj": {
+              "projectPath": "D:\\Projects\\Inventory & Order Management\\Inventra\\Inventra\\Inventra.Shared\\Inventra.Shared.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
