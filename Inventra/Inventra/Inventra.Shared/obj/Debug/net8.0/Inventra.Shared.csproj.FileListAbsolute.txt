@@ -9,3 +9,4 @@ D:\Projects\Inventory & Order Management\Inventra\Inventra\Inventra.Shared\obj\D
 D:\Projects\Inventory & Order Management\Inventra\Inventra\Inventra.Shared\obj\Debug\net8.0\refint\Inventra.Shared.dll
 D:\Projects\Inventory & Order Management\Inventra\Inventra\Inventra.Shared\obj\Debug\net8.0\Inventra.Shared.pdb
 D:\Projects\Inventory & Order Management\Inventra\Inventra\Inventra.Shared\obj\Debug\net8.0\ref\Inventra.Shared.dll
+D:\Projects\Inventory & Order Management\Inventra\Inventra\Inventra.Shared\obj\Debug\net8.0\Inventra.Shared.sourcelink.json

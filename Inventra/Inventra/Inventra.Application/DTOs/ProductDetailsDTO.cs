@@ -15,5 +15,7 @@ namespace Inventra.Application.DTOs
         public int SellerID { get; set; }
         public int stockQuantity { get; set; }
 
+        public bool IsActive { get; set; }
+
     }
 }

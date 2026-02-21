@@ -15,3 +15,4 @@ D:\Projects\Inventory & Order Management\Inventra\Inventra\Inventra.Application\
 D:\Projects\Inventory & Order Management\Inventra\Inventra\Inventra.Application\obj\Debug\net8.0\refint\Inventra.Application.dll
 D:\Projects\Inventory & Order Management\Inventra\Inventra\Inventra.Application\obj\Debug\net8.0\Inventra.Application.pdb
 D:\Projects\Inventory & Order Management\Inventra\Inventra\Inventra.Application\obj\Debug\net8.0\ref\Inventra.Application.dll
+D:\Projects\Inventory & Order Management\Inventra\Inventra\Inventra.Application\obj\Debug\net8.0\Inventra.Application.sourcelink.json

@@ -9,3 +9,4 @@ D:\Projects\Inventory & Order Management\Inventra\Inventra\Inventra.Domain\obj\D
 D:\Projects\Inventory & Order Management\Inventra\Inventra\Inventra.Domain\obj\Debug\net8.0\refint\Inventra.Domain.dll
 D:\Projects\Inventory & Order Management\Inventra\Inventra\Inventra.Domain\obj\Debug\net8.0\Inventra.Domain.pdb
 D:\Projects\Inventory & Order Management\Inventra\Inventra\Inventra.Domain\obj\Debug\net8.0\ref\Inventra.Domain.dll
+D:\Projects\Inventory & Order Management\Inventra\Inventra\Inventra.Domain\obj\Debug\net8.0\Inventra.Domain.sourcelink.json

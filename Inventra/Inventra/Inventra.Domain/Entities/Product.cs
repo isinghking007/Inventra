@@ -11,16 +11,16 @@ namespace Inventra.Domain.Entities
     {
         [Key]
         public int ProductId { get; private set; }
-        public string ProductName { get; private set; }
-        public string SKU { get; private set; }
-        public float PurchasePrice { get; private set; }
-        public string Category { get; private set; }
+        public string ProductName { get;  set; }
+        public string SKU { get;  set; }
+        public float PurchasePrice { get;  set; }
+        public string Category { get;  set; }
 
-        public bool IsActive { get; private set; } = true;
+        public bool IsActive { get;  set; } = true;
 
-        public int StockQuantity { get; private set; }
-        public DateTime CreatedAt { get; private set; } = DateTime.Now;
-        public int SellerID { get; private set; }
+        public int StockQuantity { get;  set; }
+        public DateTime CreatedAt { get;  set; } = DateTime.Now;
+        public int SellerID { get;  set; }
 
         protected Product() { }
         public Product(string productName, string sku, float purchasePrice, string category,int stockQuantity, int sellerID)

@@ -19,3 +19,4 @@ D:\Projects\Inventory & Order Management\Inventra\Inventra\Inventra.Infrastructu
 D:\Projects\Inventory & Order Management\Inventra\Inventra\Inventra.Infrastructure\bin\Debug\net8.0\Inventra.Application.dll
 D:\Projects\Inventory & Order Management\Inventra\Inventra\Inventra.Infrastructure\bin\Debug\net8.0\Inventra.Application.pdb
 D:\Projects\Inventory & Order Management\Inventra\Inventra\Inventra.Infrastructure\obj\Debug\net8.0\Inventra.Infrastructure.genruntimeconfig.cache
+D:\Projects\Inventory & Order Management\Inventra\Inventra\Inventra.Infrastructure\obj\Debug\net8.0\Inventra.Infrastructure.sourcelink.json
