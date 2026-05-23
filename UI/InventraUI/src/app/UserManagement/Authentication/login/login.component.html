@@ -1,1 +1,45 @@
-<p>login works!</p>
+<mat-grid-list cols="2" gutterSize="1px">
+    <div>
+  <mat-grid-tile class="grid-img-1" [style.width]="'auto'"
+   [style.background-image]="'url(assets/Images/reg_background.png)'">
+    <!-- left tile: decorative image/background -->
+  </mat-grid-tile>
+</div>
+  <mat-grid-tile>
+    <div class="outer-form">
+      <form [formGroup]="RegistrationForm" (submit)="submitForm()">
+
+        <h1>Login into Account</h1>
+        <div class="form-details">
+           <!-- //Phone number -->
+          <mat-form-field hintLabel="Max 10 numbers">
+            <mat-label class="phone-label">Phone Number</mat-label>
+            <span matTextPrefix>+91 &nbsp;</span>
+            <input type="text" formControlName="phone" maxlength="10" matInput placeholder="7091206161" />
+            <mat-icon matSuffix>phone</mat-icon>
+            <mat-hint align="end">{{RegistrationForm.get('phone')?.value?.length || 0}}/10</mat-hint>
+          </mat-form-field>
+          <!-- Password -->
+          <mat-form-field>
+            <mat-label>Enter your password</mat-label>
+            <input formControlName="password" matInput [type]="hide() ? 'password' : 'text'" />
+            <button matIconButton matSuffix (click)="clickEvent($event)" [attr.aria-label]="'Hide password'"
+              [attr.aria-pressed]="hide()">
+              <mat-icon>{{hide() ? 'visibility_off' : 'visibility'}}</mat-icon>
+            </button>
+          </mat-form-field>
+
+          <!-- Submit button -->
+          <div class="example-button-row">
+            <button matButton="filled"><mat-icon matPrefix>arrow_forward</mat-icon>Login Account</button>
+          </div>
+
+          <div class="login">
+            <p>Forgot Password? <span>Reset Now</span></p>
+            <p>Don't have an account? <span (click)="register()">Register</span></p>
+          </div>
+        </div>
+      </form>
+    </div>
+  </mat-grid-tile>
+</mat-grid-list>

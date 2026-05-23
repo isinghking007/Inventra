@@ -1,11 +1,13 @@
 import { Component, OnInit, signal } from '@angular/core';
 import { MatGridListModule } from '@angular/material/grid-list';
+import { MatFormFieldModule } from '@angular/material/form-field';
 import {ChangeDetectionStrategy} from '@angular/core';
 import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
 import { FormControl, FormGroup, FormsModule, ReactiveFormsModule, Validators } from '@angular/forms';
 import {MatInputModule} from '@angular/material/input'
 import {MatIconModule} from '@angular/material/icon'
+import { Router } from '@angular/router';
 
 export interface Tile {
   color: string;
@@ -18,7 +20,7 @@ export interface Tile {
 @Component({
   selector: 'app-registration',
   standalone: true,
-  imports: [MatGridListModule,MatCardModule,MatButtonModule,ReactiveFormsModule,MatInputModule,MatIconModule],
+  imports: [MatGridListModule,MatCardModule,MatButtonModule,ReactiveFormsModule,MatInputModule,MatIconModule,MatFormFieldModule],
   templateUrl: './registration.component.html',
   styleUrl: './registration.component.css'
 
@@ -32,6 +34,7 @@ export class RegistrationComponent implements OnInit {
   ];
  
   RegistrationForm!:FormGroup
+  constructor(private router:Router){}
 
   ngOnInit(){
     this.RegistrationForm=new FormGroup({
@@ -58,5 +61,6 @@ export class RegistrationComponent implements OnInit {
   login()
   {
     console.log("logged In button clicked")
+    this.router.navigate(['/auth/login']);
   }
 }
