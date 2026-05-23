@@ -6,7 +6,7 @@ import {MatCardModule} from '@angular/material/card';
 import { FormControl, FormGroup, FormsModule, ReactiveFormsModule, Validators } from '@angular/forms';
 import {MatInputModule} from '@angular/material/input'
 import {MatIconModule} from '@angular/material/icon'
-import { RouterOutlet } from '@angular/router';
+import { Router, RouterOutlet } from '@angular/router';
 
 export interface Tile {
   color: string;
@@ -32,6 +32,8 @@ export class AuthComponent implements OnInit{
  
   RegistrationForm!:FormGroup
 
+  constructor(private router:Router){}
+
   ngOnInit(){
     this.RegistrationForm=new FormGroup({
     name : new FormControl('',[Validators.required,Validators.minLength(4),Validators.maxLength(15)]),
@@ -56,7 +58,8 @@ export class AuthComponent implements OnInit{
   }
   login()
   {
-    console.log("logged In button clicked")
+    console.log("logged In button clicked");
+    this.router.navigate(['auth/login'])
   }
 
 }

@@ -1,0 +1,147 @@
+/* Ensure the grid fills the viewport height */
+* {
+ 
+  box-sizing: border-box;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden; /* This strictly prevents scrolling */
+}
+.centered-wrapper{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 50%;
+}
+
+mat-card{
+   max-height: 90%;
+   width: 100%;
+   border:none !important;
+   box-shadow: 0 4px 20px rgba(0, 0, 0, 1.08); 
+}
+mat-card-header{
+    justify-content: center !important;
+}
+.example-card {
+  max-width: 80%;
+  /* background-color:red !important; */
+  width: 100%;
+}
+mat-grid-list {
+  width: 100%;
+  /* border:1px solid black;
+  background-color: green; */
+  height: 70vh;
+}
+
+.example-header-image {
+  background-image: url('../../../../assets/Images/inventra-svg.svg');
+  background-size: cover;
+  height: 50px !important;
+  width: 50px !important;
+}
+mat-card-title{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 10%; */
+    font-weight: 500;
+    font-size: 30px;
+    padding: 11px 4px 0 !important;
+    
+}
+mat-grid-tile{
+background-color: #e9ecee;
+/* border:1px solid black; */
+  height: 100%;
+}
+mat-grid-tile-content{
+      display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: self-end !important;
+}
+.grid-img-1{
+  /* background-image:url('../../../assets/Images/reg_background.png');*/
+  /* background-size:contain;  */
+  background-position:center center;
+     
+}
+
+form{
+  background-color: #ffffff;
+  padding:12px;
+box-shadow: 0 4px 20px rgba(0, 0, 0, 1.08);    
+height: 100%;
+
+}
+form h1{
+  text-align: center;
+  font-weight: 500;
+}
+.form-details{
+  height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+}
+mat-form-field{
+  width:100%;
+}
+.example-container mat-form-field + mat-form-field {
+  margin-left: 8px;
+}
+.phone-label{
+  margin-top:4%;
+}
+/* Ensure the background properties are visible on the tile */
+::ng-deep .mat-grid-tile .mat-figure {
+  background-image: inherit; /* Inherits the URL from the [style.background-image] */
+  background-size: cover;    /* Ensures image covers the whole tile */
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.tile-text {
+  color: white;
+  font-weight: bold;
+  z-index: 2; /* Keeps text above the background image */
+  text-shadow: 0px 2px 4px rgba(0,0,0,0.5);
+}
+
+.example-button-row {
+  width: 100%;
+  height: 40px;
+}
+.example-button-row button{
+  height: 100%;
+    width: 100%;
+        text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: anchor-center;
+    background-color: #1976D2;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+}
+.login{
+  margin-top:10px;
+}
+.login p{
+  margin-left:39px;
+}
+.login p span{
+  color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.example-button-row .mat-mdc-button-base {
+  margin: 8px 8px 8px 0;
+}
