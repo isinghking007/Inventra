@@ -31,14 +31,14 @@ export class LoginComponent {
   
     ngOnInit(){
       this.RegistrationForm=new FormGroup({
-      name : new FormControl('',[Validators.required,Validators.minLength(4),Validators.maxLength(15)]),
+     // name : new FormControl('',[Validators.required,Validators.minLength(4),Validators.maxLength(15)]),
       // email: new FormControl(''),
       phone:new FormControl('',[    Validators.required, 
         Validators.pattern(/^\d{10}$/),  // Exactly 10 digits
         Validators.minLength(10),
         Validators.maxLength(10)
      ]),
-     address:new FormControl('',[Validators.required,Validators.minLength(3)]),
+     //address:new FormControl('',[Validators.required,Validators.minLength(3)]),
      password:new FormControl('',[Validators.required,Validators.minLength(3)])
     })
     }
