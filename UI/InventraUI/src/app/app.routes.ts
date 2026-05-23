@@ -4,13 +4,16 @@ import { LoginComponent } from './UserManagement/Authentication/login/login.comp
 import {AuthComponent} from './UserManagement/Authentication/auth/auth.component'
 export const routes: Routes = [
 {
-    path:'auth',children:[
+    path:'auth',component:AuthComponent,children:[
+        {
+            path:'',redirectTo:'register',pathMatch:'full'
+        },
         {
             path:'register',component:RegistrationComponent
         },
         {
             path:'login',component:LoginComponent
         }
-    ],component:AuthComponent
+    ]
 }
 ];
