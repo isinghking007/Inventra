@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36">
+  <diagram name="Page-1" id="5Pemg9C-2XOtFGqcsay5">
+    <mxGraphModel dx="860" dy="479" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oOuJ5EM2v1iFL96P2Zgq-4" edge="1" parent="1" source="oOuJ5EM2v1iFL96P2Zgq-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="oOuJ5EM2v1iFL96P2Zgq-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oOuJ5EM2v1iFL96P2Zgq-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="130" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oOuJ5EM2v1iFL96P2Zgq-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="User&lt;br&gt;from a&lt;br&gt;company" vertex="1">
+          <mxGeometry height="30" width="60" x="160" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="oOuJ5EM2v1iFL96P2Zgq-9" edge="1" parent="1" source="oOuJ5EM2v1iFL96P2Zgq-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="oOuJ5EM2v1iFL96P2Zgq-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oOuJ5EM2v1iFL96P2Zgq-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="330" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oOuJ5EM2v1iFL96P2Zgq-12" edge="1" parent="1" source="oOuJ5EM2v1iFL96P2Zgq-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="oOuJ5EM2v1iFL96P2Zgq-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oOuJ5EM2v1iFL96P2Zgq-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Activity 1&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="60" x="360" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oOuJ5EM2v1iFL96P2Zgq-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="He will login" vertex="1">
+          <mxGeometry height="30" width="60" x="260" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oOuJ5EM2v1iFL96P2Zgq-7" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;text-align: center; margin-top: 0px;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;ACTIVITY 1&lt;/font&gt;&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: center;&quot;&gt;Can add new borrowers.&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: center;&quot;&gt;Update amount for existing borrower.&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: center;&quot;&gt;Remove borrower.&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: center;&quot;&gt;Total Balance Sheet Report&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: center;&quot;&gt;Balance Report by each person&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="190" width="360" x="50" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="oOuJ5EM2v1iFL96P2Zgq-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="530" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oOuJ5EM2v1iFL96P2Zgq-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Generate PDF Report" vertex="1">
+          <mxGeometry height="30" width="60" x="560" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oOuJ5EM2v1iFL96P2Zgq-11" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Implement SMS/Call feature" vertex="1">
+          <mxGeometry height="125" width="110" x="350" y="145" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

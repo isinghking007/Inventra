@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "D:\\Projects\\Inventory \u0026 Order Management\\Inventra\\Inventra\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E6A236D5-A0D1-4E4D-BF68-43C94311B46E}|Inventra.Infrastructure\\Inventra.Infrastructure.csproj|d:\\projects\\inventory \u0026 order management\\inventra\\inventra\\inventra.infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6A236D5-A0D1-4E4D-BF68-43C94311B46E}|Inventra.Infrastructure\\Inventra.Infrastructure.csproj|solutionrelative:inventra.infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7A5E1D61-971D-447D-A799-51702A0E1263}|Inventra.Domain\\Inventra.Domain.csproj|d:\\projects\\inventory \u0026 order management\\inventra\\inventra\\inventra.domain\\entities\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A5E1D61-971D-447D-A799-51702A0E1263}|Inventra.Domain\\Inventra.Domain.csproj|solutionrelative:inventra.domain\\entities\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A5E1D61-971D-447D-A799-51702A0E1263}|Inventra.Domain\\Inventra.Domain.csproj|d:\\projects\\inventory \u0026 order management\\inventra\\inventra\\inventra.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A5E1D61-971D-447D-A799-51702A0E1263}|Inventra.Domain\\Inventra.Domain.csproj|solutionrelative:inventra.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5F6F4C61-5691-454F-811A-3EE3C483E271}|Inventra\\Inventra.API.csproj|d:\\projects\\inventory \u0026 order management\\inventra\\inventra\\inventra\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F6F4C61-5691-454F-811A-3EE3C483E271}|Inventra\\Inventra.API.csproj|solutionrelative:inventra\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6A236D5-A0D1-4E4D-BF68-43C94311B46E}|Inventra.Infrastructure\\Inventra.Infrastructure.csproj|d:\\projects\\inventory \u0026 order management\\inventra\\inventra\\inventra.infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6A236D5-A0D1-4E4D-BF68-43C94311B46E}|Inventra.Infrastructure\\Inventra.Infrastructure.csproj|solutionrelative:inventra.infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AEFFFEC4-5079-409F-89DD-D3B69E03F849}|Inventra.Application\\Inventra.Application.csproj|d:\\projects\\inventory \u0026 order management\\inventra\\inventra\\inventra.application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,10 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{AEFFFEC4-5079-409F-89DD-D3B69E03F849}|Inventra.Application\\Inventra.Application.csproj|d:\\projects\\inventory \u0026 order management\\inventra\\inventra\\inventra.application\\dtos\\productdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AEFFFEC4-5079-409F-89DD-D3B69E03F849}|Inventra.Application\\Inventra.Application.csproj|solutionrelative:inventra.application\\dtos\\productdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A5E1D61-971D-447D-A799-51702A0E1263}|Inventra.Domain\\Inventra.Domain.csproj|d:\\projects\\inventory \u0026 order management\\inventra\\inventra\\inventra.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A5E1D61-971D-447D-A799-51702A0E1263}|Inventra.Domain\\Inventra.Domain.csproj|solutionrelative:inventra.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5F6F4C61-5691-454F-811A-3EE3C483E271}|Inventra\\Inventra.API.csproj|d:\\projects\\inventory \u0026 order management\\inventra\\inventra\\inventra\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -78,11 +82,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "ProductDetailsDTO.cs",
               "DocumentMoniker": "D:\\Projects\\Inventory \u0026 Order Management\\Inventra\\Inventra\\Inventra.Application\\DTOs\\ProductDetailsDTO.cs",
               "RelativeDocumentMoniker": "Inventra.Application\\DTOs\\ProductDetailsDTO.cs",
@@ -92,6 +96,19 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-17T03:24:47.926Z",
               "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Inventory.cs",
+              "DocumentMoniker": "D:\\Projects\\Inventory \u0026 Order Management\\Inventra\\Inventra\\Inventra.Domain\\Entities\\Inventory.cs",
+              "RelativeDocumentMoniker": "Inventra.Domain\\Entities\\Inventory.cs",
+              "ToolTip": "D:\\Projects\\Inventory \u0026 Order Management\\Inventra\\Inventra\\Inventra.Domain\\Entities\\Inventory.cs",
+              "RelativeToolTip": "Inventra.Domain\\Entities\\Inventory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T03:27:11.014Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -104,18 +121,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "UpdateProductDTO.cs",
-              "DocumentMoniker": "D:\\Projects\\Inventory \u0026 Order Management\\Inventra\\Inventra\\Inventra.Application\\DTOs\\UpdateProductDTO.cs",
-              "RelativeDocumentMoniker": "Inventra.Application\\DTOs\\UpdateProductDTO.cs",
-              "ToolTip": "D:\\Projects\\Inventory \u0026 Order Management\\Inventra\\Inventra\\Inventra.Application\\DTOs\\UpdateProductDTO.cs",
-              "RelativeToolTip": "Inventra.Application\\DTOs\\UpdateProductDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-21T02:40:10.247Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "IProductDetailsRepository.cs",
               "DocumentMoniker": "D:\\Projects\\Inventory \u0026 Order Management\\Inventra\\Inventra\\Inventra.Application\\Interfaces\\IProductDetailsRepository.cs",
               "RelativeDocumentMoniker": "Inventra.Application\\Interfaces\\IProductDetailsRepository.cs",
@@ -123,12 +128,11 @@
               "RelativeToolTip": "Inventra.Application\\Interfaces\\IProductDetailsRepository.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAMwBYAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T03:25:51.014Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-17T03:25:51.014Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ProductService.cs",
               "DocumentMoniker": "D:\\Projects\\Inventory \u0026 Order Management\\Inventra\\Inventra\\Inventra.Application\\Services\\ProductService.cs",
               "RelativeDocumentMoniker": "Inventra.Application\\Services\\ProductService.cs",
@@ -141,33 +145,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "D:\\Projects\\Inventory \u0026 Order Management\\Inventra\\Inventra\\Inventra.Infrastructure\\Repositories\\ProductRepository.cs",
               "RelativeDocumentMoniker": "Inventra.Infrastructure\\Repositories\\ProductRepository.cs",
               "ToolTip": "D:\\Projects\\Inventory \u0026 Order Management\\Inventra\\Inventra\\Inventra.Infrastructure\\Repositories\\ProductRepository.cs",
               "RelativeToolTip": "Inventra.Infrastructure\\Repositories\\ProductRepository.cs",
-              "ViewState": "AgIAAH8AAAAAAAAAAAAAwJMAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAwJMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-17T03:29:30.604Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ProductController.cs",
               "DocumentMoniker": "D:\\Projects\\Inventory \u0026 Order Management\\Inventra\\Inventra\\Inventra\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "Inventra\\Controllers\\ProductController.cs",
               "ToolTip": "D:\\Projects\\Inventory \u0026 Order Management\\Inventra\\Inventra\\Inventra\\Controllers\\ProductController.cs",
               "RelativeToolTip": "Inventra\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAHIAAAAAAAAAAAAowIQAAABGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-17T04:11:10.628Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "PagedResult.cs",
               "DocumentMoniker": "D:\\Projects\\Inventory \u0026 Order Management\\Inventra\\Inventra\\Inventra.Shared\\Models\\PagedResult.cs",
               "RelativeDocumentMoniker": "Inventra.Shared\\Models\\PagedResult.cs",
@@ -175,12 +179,36 @@
               "RelativeToolTip": "Inventra.Shared\\Models\\PagedResult.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T03:34:26.785Z",
+              "WhenOpened": "2026-02-18T03:34:26.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\Projects\\Inventory \u0026 Order Management\\Inventra\\Inventra\\Inventra.Domain\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "Inventra.Domain\\Entities\\Product.cs",
+              "ToolTip": "D:\\Projects\\Inventory \u0026 Order Management\\Inventra\\Inventra\\Inventra.Domain\\Entities\\Product.cs*",
+              "RelativeToolTip": "Inventra.Domain\\Entities\\Product.cs*",
+              "ViewState": "AgIAABUAAABgZmZmZmYywCMAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T03:20:04.787Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
+              "Title": "UpdateProductDTO.cs",
+              "DocumentMoniker": "D:\\Projects\\Inventory \u0026 Order Management\\Inventra\\Inventra\\Inventra.Application\\DTOs\\UpdateProductDTO.cs",
+              "RelativeDocumentMoniker": "Inventra.Application\\DTOs\\UpdateProductDTO.cs",
+              "ToolTip": "D:\\Projects\\Inventory \u0026 Order Management\\Inventra\\Inventra\\Inventra.Application\\DTOs\\UpdateProductDTO.cs",
+              "RelativeToolTip": "Inventra.Application\\DTOs\\UpdateProductDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T02:40:10.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "AuthController.cs",
               "DocumentMoniker": "D:\\Projects\\Inventory \u0026 Order Management\\Inventra\\Inventra\\Inventra\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Inventra\\Controllers\\AuthController.cs",
@@ -193,19 +221,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Product.cs",
-              "DocumentMoniker": "D:\\Projects\\Inventory \u0026 Order Management\\Inventra\\Inventra\\Inventra.Domain\\Entities\\Product.cs",
-              "RelativeDocumentMoniker": "Inventra.Domain\\Entities\\Product.cs",
-              "ToolTip": "D:\\Projects\\Inventory \u0026 Order Management\\Inventra\\Inventra\\Inventra.Domain\\Entities\\Product.cs",
-              "RelativeToolTip": "Inventra.Domain\\Entities\\Product.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAkwBQAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T03:20:04.787Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "RegisterUserService.cs",
               "DocumentMoniker": "D:\\Projects\\Inventory \u0026 Order Management\\Inventra\\Inventra\\Inventra.Application\\Services\\RegisterUserService.cs",
               "RelativeDocumentMoniker": "Inventra.Application\\Services\\RegisterUserService.cs",
@@ -217,7 +233,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "D:\\Projects\\Inventory \u0026 Order Management\\Inventra\\Inventra\\Inventra.Application\\Interfaces\\IUserRepository.cs",
               "RelativeDocumentMoniker": "Inventra.Application\\Interfaces\\IUserRepository.cs",
@@ -229,7 +245,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Projects\\Inventory \u0026 Order Management\\Inventra\\Inventra\\Inventra\\Program.cs",
               "RelativeDocumentMoniker": "Inventra\\Program.cs",
@@ -241,7 +257,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "D:\\Projects\\Inventory \u0026 Order Management\\Inventra\\Inventra\\Inventra.Infrastructure\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "Inventra.Infrastructure\\Repositories\\UserRepository.cs",
@@ -253,7 +269,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "D:\\Projects\\Inventory \u0026 Order Management\\Inventra\\Inventra\\Inventra.Infrastructure\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Inventra.Infrastructure\\Data\\AppDbContext.cs",
@@ -265,7 +281,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\Projects\\Inventory \u0026 Order Management\\Inventra\\Inventra\\Inventra.Domain\\Entities\\User.cs",
               "RelativeDocumentMoniker": "Inventra.Domain\\Entities\\User.cs",
@@ -277,7 +293,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Projects\\Inventory \u0026 Order Management\\Inventra\\Inventra\\Inventra\\appsettings.json",
               "RelativeDocumentMoniker": "Inventra\\appsettings.json",
@@ -289,7 +305,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "RegisterUserDTO.cs",
               "DocumentMoniker": "D:\\Projects\\Inventory \u0026 Order Management\\Inventra\\Inventra\\Inventra.Application\\DTOs\\RegisterUserDTO.cs",
               "RelativeDocumentMoniker": "Inventra.Application\\DTOs\\RegisterUserDTO.cs",
