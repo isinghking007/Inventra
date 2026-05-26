@@ -47,6 +47,20 @@ namespace Inventra.API.Controllers
             }
         }
 
+        [HttpGet("AllUsers")]
+        public async Task<IActionResult> GetAllUsers()
+        {
+            try
+            {
+                var users = await _registerUserService.GetAllUsersAsync();
+                return Ok(users);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { Message = ex.Message });
+            }
+        }
+
 
     }
 }

@@ -67,6 +67,18 @@
         }
       }
     },
+    "/api/Auth/AllUsers": {
+      "get": {
+        "tags": [
+          "Auth"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Product/addProduct": {
       "post": {
         "tags": [

@@ -8,6 +8,7 @@ import { FormControl, FormGroup, FormsModule, ReactiveFormsModule, Validators } 
 import {MatInputModule} from '@angular/material/input'
 import {MatIconModule} from '@angular/material/icon'
 import { Router } from '@angular/router';
+import { APIServiceService } from '../../../Services/apiservice.service';
 
 export interface Tile {
   color: string;
@@ -27,7 +28,7 @@ export interface Tile {
 export class LoginComponent {
 
   RegistrationForm!:FormGroup
-    constructor(private router:Router){}
+    constructor(private router:Router,private service:APIServiceService){}
   
     ngOnInit(){
       this.RegistrationForm=new FormGroup({
@@ -47,9 +48,13 @@ export class LoginComponent {
       this.hide.set(!this.hide());
       event.stopPropagation();
     }
-    submitForm()
+    submitLoginForm()
     {
-      console.log("this form has been submitted",this.RegistrationForm.value)
+      console.log("this login form has been submitted",this.RegistrationForm.value);
+      this.service.login(this.RegistrationForm.value).subscribe(data=>{
+        console.log("login data"+data);
+      })
+
     }
     register()
   {

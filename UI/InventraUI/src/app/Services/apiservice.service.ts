@@ -18,4 +18,9 @@ export class APIServiceService {
   return this.http.post<any>(`${this.apiUrl}/Auth/registerUser`,data);
 }
 
+login(data:any)
+{
+    console.log("api reached at login - start");
+return this.http.post<any>(`${this.apiUrl}/Auth/login`,data);
+}
 }
