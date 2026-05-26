@@ -5,16 +5,16 @@
 
   <mat-grid-tile>
     <div class="outer-form">
-      <form [formGroup]="RegistrationForm" (submit)="submitForm()">
+      <form [formGroup]="RegistrationForm" (ngSubmit)="submitForm()">
 
         <h1>Create an Account</h1>
         <div class="form-details">
           <!-- //Full name -->
           <mat-form-field hintLabel="Max 15 characters">
             <mat-label>Full Name</mat-label>
-            <input matInput formControlName="name" maxlength="15" placeholder="Ex. Avinash" />
+            <input matInput formControlName="FullName" maxlength="15" placeholder="Ex. Avinash" />
             <mat-icon matSuffix>person</mat-icon>
-            <mat-hint align="end">{{RegistrationForm.get('name')?.value?.length || 0}}/15</mat-hint>
+            <mat-hint align="end">{{RegistrationForm.get('FullName')?.value?.length || 0}}/15</mat-hint>
           </mat-form-field>
 
           <!-- //Phone number -->
@@ -46,8 +46,12 @@
 
           <!-- Submit button -->
           <div class="example-button-row">
-            <button matButton="filled"><mat-icon matPrefix>arrow_forward</mat-icon>Create Account</button>
-          </div>
+<button
+  matButton="filled"
+  type="submit">
+  <mat-icon matPrefix>arrow_forward</mat-icon>
+  Create Account
+</button>          </div>
 
           <div class="login">
             <p>Already have an account? <span (click)="login()">Login</span></p>

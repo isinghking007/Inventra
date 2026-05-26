@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Inventra.Domain.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,8 +9,11 @@ namespace Inventra.Application.Interfaces
 {
   public interface IUserRepository
     {
-        Task<bool> IsEmailTakenAsync(string email);
+      //  Task<bool> IsEmailTakenAsync(string email);
         Task AddUserAsync(Domain.Entities.User user);
         Task<Domain.Entities.User?> GetUserByEmailAsync(string email);
+        Task<bool> IsPhoneRegistered(string phone);
+        Task<User?> GetUserByPhoneAsync(string phone);
+        Task<bool> IsPasswordMatchAsync(string phone, string password);
     }
 }

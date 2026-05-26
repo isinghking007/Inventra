@@ -15,6 +15,15 @@ builder.Services.AddSwaggerGen();
 
 //add db connection
 builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("SQLConnection")));
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll", builder =>
+    {
+        builder.AllowAnyOrigin()
+               .AllowAnyMethod()
+               .AllowAnyHeader();
+    });
+});
 
 
 //Dependency Injection for Repositories and Services
@@ -22,6 +31,7 @@ builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IProductDetailsRepository, ProductRepository>();
 builder.Services.AddScoped<RegisterUserService>();
 builder.Services.AddScoped<ProductService>();
+builder.Services.AddScoped<IPasswordService,PasswordService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -31,6 +41,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseCors("AllowAll");
 app.UseHttpsRedirection();
 
 app.UseAuthorization();

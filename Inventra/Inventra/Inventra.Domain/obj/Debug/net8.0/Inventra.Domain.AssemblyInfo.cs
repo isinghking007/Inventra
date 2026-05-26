@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Inventra.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4114a1defb2648d85522ae0a1bea7195e1184dfd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+11eb2af2c4cda5e597d3b3754385207ba10eaaa8")]
 [assembly: System.Reflection.AssemblyProductAttribute("Inventra.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Inventra.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
