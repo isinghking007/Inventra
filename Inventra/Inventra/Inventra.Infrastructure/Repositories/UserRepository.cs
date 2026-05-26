@@ -24,10 +24,10 @@ namespace Inventra.Infrastructure.Repositories
             await _dbContext.SaveChangesAsync();
         }
 
-        public async Task<User?> GetUserByEmailAsync(string email)
-        {
-            return await _dbContext.Users.FirstOrDefaultAsync(u => u.Email == email);
-        }
+        //public async Task<User?> GetUserByEmailAsync(string email)
+        //{
+        //    return await _dbContext.Users.FirstOrDefaultAsync(u => u.Email == email);
+        //}
 
         public async Task<User?> GetUserByPhoneAsync(string phone)
         {
@@ -41,7 +41,8 @@ namespace Inventra.Infrastructure.Repositories
 
         public async Task<bool> IsPhoneRegistered(string phone)
         {
-            return await _dbContext.Users.AnyAsync(u => u.Phone == phone);
+            var result = await _dbContext.Users.AnyAsync(u => u.Phone.Contains(phone));
+            return result;
         }
 
         public async Task<bool> IsPasswordMatchAsync(string phone, string password)
@@ -49,6 +50,11 @@ namespace Inventra.Infrastructure.Repositories
             var user = await GetUserByPhoneAsync(phone);
             if (user == null) return false;
             return user.PasswordHash == password;
+        }
+
+        public async Task<List<User>> GetAllUsersAsync()
+        {
+            return await _dbContext.Users.ToListAsync();
         }
     }
 }

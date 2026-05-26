@@ -7,7 +7,7 @@
 </div>
   <mat-grid-tile>
     <div class="outer-form">
-      <form [formGroup]="RegistrationForm" (submit)="submitForm()">
+      <form [formGroup]="RegistrationForm" (ngSubmit)="submitLoginForm()">
 
         <h1>Login into Account</h1>
         <div class="form-details">
@@ -31,7 +31,7 @@
 
           <!-- Submit button -->
           <div class="example-button-row">
-            <button matButton="filled"><mat-icon matPrefix>arrow_forward</mat-icon>Login Account</button>
+            <button type="submit" matButton="filled"><mat-icon matPrefix>arrow_forward</mat-icon>Login Account</button>
           </div>
 
           <div class="login">

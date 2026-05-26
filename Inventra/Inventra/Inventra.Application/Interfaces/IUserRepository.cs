@@ -11,9 +11,11 @@ namespace Inventra.Application.Interfaces
     {
       //  Task<bool> IsEmailTakenAsync(string email);
         Task AddUserAsync(Domain.Entities.User user);
-        Task<Domain.Entities.User?> GetUserByEmailAsync(string email);
+     //   Task<Domain.Entities.User?> GetUserByEmailAsync(string email);
         Task<bool> IsPhoneRegistered(string phone);
         Task<User?> GetUserByPhoneAsync(string phone);
         Task<bool> IsPasswordMatchAsync(string phone, string password);
+
+        Task<List<User>> GetAllUsersAsync();
     }
 }

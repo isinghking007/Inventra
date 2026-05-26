@@ -10,7 +10,8 @@ namespace Inventra.Domain.Entities
     {
         public int Id { get; private set; }
         public string FullName { get; private set; }
-        public string Email { get; private set; }
+//        public string Email { get; private set; }
+//        public string Email { get; private set; }
         public string PasswordHash { get; private set; }
         public string Address { get; private set; }
 
