@@ -12,12 +12,22 @@ namespace Inventra.Domain.Entities
         public string FullName { get; private set; }
         public string Email { get; private set; }
         public string PasswordHash { get; private set; }
+        public string Address { get; private set; }
 
-        public User(string fullName, string email, string passwordHash)
+        public string Phone {get; private set; }
+
+        public User(string fullName,string phone,string address)
         {
            
             FullName = fullName;
-            Email = email;
+           // Email = email;
+            Phone = phone;
+            Address = address;
+           
+        }
+
+        public void SetPasswordHash(string passwordHash)
+        {
             PasswordHash = passwordHash;
         }
     }

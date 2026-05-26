@@ -10,3 +10,15 @@ D:\Projects\Inventory & Order Management\Inventra\Inventra\Inventra.Shared\obj\D
 D:\Projects\Inventory & Order Management\Inventra\Inventra\Inventra.Shared\obj\Debug\net8.0\Inventra.Shared.pdb
 D:\Projects\Inventory & Order Management\Inventra\Inventra\Inventra.Shared\obj\Debug\net8.0\ref\Inventra.Shared.dll
 D:\Projects\Inventory & Order Management\Inventra\Inventra\Inventra.Shared\obj\Debug\net8.0\Inventra.Shared.sourcelink.json
+D:\Projects\Inventory-Order-Management\Inventra\Inventra\Inventra.Shared\bin\Debug\net8.0\Inventra.Shared.deps.json
+D:\Projects\Inventory-Order-Management\Inventra\Inventra\Inventra.Shared\bin\Debug\net8.0\Inventra.Shared.dll
+D:\Projects\Inventory-Order-Management\Inventra\Inventra\Inventra.Shared\bin\Debug\net8.0\Inventra.Shared.pdb
+D:\Projects\Inventory-Order-Management\Inventra\Inventra\Inventra.Shared\obj\Debug\net8.0\Inventra.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Inventory-Order-Management\Inventra\Inventra\Inventra.Shared\obj\Debug\net8.0\Inventra.Shared.AssemblyInfoInputs.cache
+D:\Projects\Inventory-Order-Management\Inventra\Inventra\Inventra.Shared\obj\Debug\net8.0\Inventra.Shared.AssemblyInfo.cs
+D:\Projects\Inventory-Order-Management\Inventra\Inventra\Inventra.Shared\obj\Debug\net8.0\Inventra.Shared.csproj.CoreCompileInputs.cache
+D:\Projects\Inventory-Order-Management\Inventra\Inventra\Inventra.Shared\obj\Debug\net8.0\Inventra.Shared.sourcelink.json
+D:\Projects\Inventory-Order-Management\Inventra\Inventra\Inventra.Shared\obj\Debug\net8.0\Inventra.Shared.dll
+D:\Projects\Inventory-Order-Management\Inventra\Inventra\Inventra.Shared\obj\Debug\net8.0\refint\Inventra.Shared.dll
+D:\Projects\Inventory-Order-Management\Inventra\Inventra\Inventra.Shared\obj\Debug\net8.0\Inventra.Shared.pdb
+D:\Projects\Inventory-Order-Management\Inventra\Inventra\Inventra.Shared\obj\Debug\net8.0\ref\Inventra.Shared.dll

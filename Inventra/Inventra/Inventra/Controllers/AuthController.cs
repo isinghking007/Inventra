@@ -32,6 +32,20 @@ namespace Inventra.API.Controllers
                 return BadRequest(new { Message = ex.Message });
             }
         }
+        [HttpPost("login")]
+        public async Task<IActionResult> Login(LoginDTO loginDTO)
+        {
+            try
+            {
+                var userDetails=await _registerUserService.LoginUserAsync(loginDTO);
+               return Ok(new { Message = "Login successful.", UserDetails = userDetails });
+
+            }
+            catch(Exception ex)
+                {
+                return BadRequest(new { Message = ex.Message });
+            }
+        }
 
 
     }
