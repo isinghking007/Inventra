@@ -1,0 +1,23 @@
+
+        <div class="dialog-container">
+  <h2 mat-dialog-title>{{data.title}}</h2>
+
+  <mat-dialog-content>
+    <p>{{ data.message }}</p>
+  </mat-dialog-content>
+
+  <mat-dialog-actions align="center">
+    @if(data.isSuccess)
+    {
+    <button mat-raised-button color="primary" (click)="goToHome()">
+      Go to Homepage
+    </button>
+    }
+    @else{
+            <button mat-raised-button color="warn" mat-dialog-close>
+      Close
+    </button>
+    }
+
+  </mat-dialog-actions>
+</div>
