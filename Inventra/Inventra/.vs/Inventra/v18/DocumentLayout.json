@@ -139,8 +139,7 @@
               "ViewState": "AgIAACAAAAAAAAAAAAAlwCcAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-23T15:40:47.836Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -164,8 +163,7 @@
               "RelativeToolTip": "Inventra.Application\\Services\\RegisterUserService.cs",
               "ViewState": "AgIAAEcAAAAAAAAAAAAgwFcAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T15:40:47.852Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-23T15:40:47.852Z"
             },
             {
               "$type": "Document",
@@ -177,8 +175,7 @@
               "RelativeToolTip": "Inventra.Domain\\Entities\\User.cs",
               "ViewState": "AgIAAAEAAAAAMzMzMzMLwAIAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T15:40:47.899Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-23T15:40:47.899Z"
             },
             {
               "$type": "Document",
@@ -203,8 +200,7 @@
               "RelativeToolTip": "Inventra.Application\\Interfaces\\IUserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T15:40:47.852Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-23T15:40:47.852Z"
             },
             {
               "$type": "Document",
@@ -216,8 +212,7 @@
               "RelativeToolTip": "Inventra.Infrastructure\\Data\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T15:40:47.899Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-23T15:40:47.899Z"
             },
             {
               "$type": "Document",
@@ -229,8 +224,7 @@
               "RelativeToolTip": "Inventra\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-05-23T15:40:47.914Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-23T15:40:47.914Z"
             },
             {
               "$type": "Document",
@@ -240,8 +234,7 @@
               "ToolTip": "C:\\Users\\Avinash Kumar\\AppData\\Local\\SourceServer\\a16a92ac24f57c95fe31c73e00e9e898b8254ebb5bc7b8b052cd1a87aca83a7a\\src\\libraries\\System.Private.CoreLib\\src\\System\\Threading\\ExecutionContext.cs",
               "ViewState": "AgIAAKMAAAAAAAAAAAAvwLIAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-26T05:11:16.889Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-26T05:11:16.889Z"
             },
             {
               "$type": "Document",
@@ -253,8 +246,7 @@
               "RelativeToolTip": "Inventra.Infrastructure\\Migrations\\AppDbContextModelSnapshot.cs",
               "ViewState": "AgIAAAIAAACgMDMzMzMbwFQAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-26T11:52:01.179Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-26T11:52:01.179Z"
             },
             {
               "$type": "Document",
@@ -266,8 +258,7 @@
               "RelativeToolTip": "Inventra.Infrastructure\\Migrations\\20260526115526_AddUserTable.cs",
               "ViewState": "AgIAAAUAAABAMzMzMzMbwAwAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-26T11:58:59.717Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-26T11:58:59.717Z"
             },
             {
               "$type": "Document",
@@ -387,8 +378,7 @@
               "RelativeToolTip": "Inventra\\Controllers\\ProductController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T15:40:47.82Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-23T15:40:47.82Z"
             },
             {
               "$type": "Document",
@@ -400,8 +390,7 @@
               "RelativeToolTip": "Inventra.Infrastructure\\Repositories\\ProductRepository.cs",
               "ViewState": "AgIAAGAAAAAAAAAAAAAAwJMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T15:40:47.789Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-23T15:40:47.789Z"
             },
             {
               "$type": "Document",

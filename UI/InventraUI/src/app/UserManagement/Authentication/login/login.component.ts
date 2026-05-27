@@ -1,4 +1,4 @@
-import { Component, OnInit, signal } from '@angular/core';
+import { Component, inject, OnInit, signal } from '@angular/core';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import {ChangeDetectionStrategy} from '@angular/core';
@@ -9,6 +9,8 @@ import {MatInputModule} from '@angular/material/input'
 import {MatIconModule} from '@angular/material/icon'
 import { Router } from '@angular/router';
 import { APIServiceService } from '../../../Services/apiservice.service';
+import { MatDialog } from '@angular/material/dialog';
+import { SuccesspopupComponent } from '../../../Shared/SuccessPopup/successpopup/successpopup.component';
 
 export interface Tile {
   color: string;
@@ -27,6 +29,7 @@ export interface Tile {
 })
 export class LoginComponent {
 
+  private dialog = inject(MatDialog);
   RegistrationForm!:FormGroup
     constructor(private router:Router,private service:APIServiceService){}
   
@@ -51,10 +54,35 @@ export class LoginComponent {
     submitLoginForm()
     {
       console.log("this login form has been submitted",this.RegistrationForm.value);
-      this.service.login(this.RegistrationForm.value).subscribe(data=>{
+      this.service.login(this.RegistrationForm.value).subscribe(
+        {next:(data)=>{
         console.log("login data"+data);
-      })
-
+        this.dialog.open(SuccesspopupComponent,{
+          width:'400px',
+          disableClose: true,
+            data: {
+              isSuccess:true,
+              title: 'Success',
+              message:data.message || 'Logged In Successfully!'
+            }
+          });
+        },
+        error: (err: any) => {
+        console.log("error message = "+err);
+        this.dialog.open(SuccesspopupComponent,{
+          width:'400px',
+          disableClose: true,
+            data: {
+             isSuccess:false,
+              title: 'Failed',
+              message:
+              err?.error?.message ||
+                'Something went wrong. Please try again.'
+            }
+          });
+        }
+      });
+      this.RegistrationForm.reset();
     }
     register()
   {

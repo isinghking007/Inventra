@@ -145,3 +145,7 @@ mat-form-field{
 .example-button-row .mat-mdc-button-base {
   margin: 8px 8px 8px 0;
 }
+
+button{
+  cursor: pointer;
+}
