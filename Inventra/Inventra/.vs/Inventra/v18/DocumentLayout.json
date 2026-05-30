@@ -3,24 +3,40 @@
   "WorkspaceRootPath": "D:\\Projects\\Inventory-Order-Management\\Inventra\\Inventra\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E6A236D5-A0D1-4E4D-BF68-43C94311B46E}|Inventra.Infrastructure\\Inventra.Infrastructure.csproj|d:\\projects\\inventory-order-management\\inventra\\inventra\\inventra.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6A236D5-A0D1-4E4D-BF68-43C94311B46E}|Inventra.Infrastructure\\Inventra.Infrastructure.csproj|solutionrelative:inventra.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5F6F4C61-5691-454F-811A-3EE3C483E271}|Inventra\\Inventra.API.csproj|d:\\projects\\inventory-order-management\\inventra\\inventra\\inventra\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5F6F4C61-5691-454F-811A-3EE3C483E271}|Inventra\\Inventra.API.csproj|solutionrelative:inventra\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AEFFFEC4-5079-409F-89DD-D3B69E03F849}|Inventra.Application\\Inventra.Application.csproj|d:\\projects\\inventory-order-management\\inventra\\inventra\\inventra.application\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AEFFFEC4-5079-409F-89DD-D3B69E03F849}|Inventra.Application\\Inventra.Application.csproj|solutionrelative:inventra.application\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E6A236D5-A0D1-4E4D-BF68-43C94311B46E}|Inventra.Infrastructure\\Inventra.Infrastructure.csproj|d:\\projects\\inventory-order-management\\inventra\\inventra\\inventra.infrastructure\\security\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6A236D5-A0D1-4E4D-BF68-43C94311B46E}|Inventra.Infrastructure\\Inventra.Infrastructure.csproj|solutionrelative:inventra.infrastructure\\security\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AEFFFEC4-5079-409F-89DD-D3B69E03F849}|Inventra.Application\\Inventra.Application.csproj|d:\\projects\\inventory-order-management\\inventra\\inventra\\inventra.application\\services\\registeruserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AEFFFEC4-5079-409F-89DD-D3B69E03F849}|Inventra.Application\\Inventra.Application.csproj|solutionrelative:inventra.application\\services\\registeruserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AEFFFEC4-5079-409F-89DD-D3B69E03F849}|Inventra.Application\\Inventra.Application.csproj|d:\\projects\\inventory-order-management\\inventra\\inventra\\inventra.application\\interfaces\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEFFFEC4-5079-409F-89DD-D3B69E03F849}|Inventra.Application\\Inventra.Application.csproj|solutionrelative:inventra.application\\interfaces\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F6F4C61-5691-454F-811A-3EE3C483E271}|Inventra\\Inventra.API.csproj|d:\\projects\\inventory-order-management\\inventra\\inventra\\inventra\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F6F4C61-5691-454F-811A-3EE3C483E271}|Inventra\\Inventra.API.csproj|solutionrelative:inventra\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5F6F4C61-5691-454F-811A-3EE3C483E271}|Inventra\\Inventra.API.csproj|d:\\projects\\inventory-order-management\\inventra\\inventra\\inventra\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F6F4C61-5691-454F-811A-3EE3C483E271}|Inventra\\Inventra.API.csproj|solutionrelative:inventra\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F6F4C61-5691-454F-811A-3EE3C483E271}|Inventra\\Inventra.API.csproj|d:\\projects\\inventory-order-management\\inventra\\inventra\\inventra\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{5F6F4C61-5691-454F-811A-3EE3C483E271}|Inventra\\Inventra.API.csproj|solutionrelative:inventra\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{AEFFFEC4-5079-409F-89DD-D3B69E03F849}|Inventra.Application\\Inventra.Application.csproj|d:\\projects\\inventory-order-management\\inventra\\inventra\\inventra.application\\services\\registeruserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEFFFEC4-5079-409F-89DD-D3B69E03F849}|Inventra.Application\\Inventra.Application.csproj|solutionrelative:inventra.application\\services\\registeruserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEFFFEC4-5079-409F-89DD-D3B69E03F849}|Inventra.Application\\Inventra.Application.csproj|d:\\projects\\inventory-order-management\\inventra\\inventra\\inventra.application\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEFFFEC4-5079-409F-89DD-D3B69E03F849}|Inventra.Application\\Inventra.Application.csproj|solutionrelative:inventra.application\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6A236D5-A0D1-4E4D-BF68-43C94311B46E}|Inventra.Infrastructure\\Inventra.Infrastructure.csproj|d:\\projects\\inventory-order-management\\inventra\\inventra\\inventra.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6A236D5-A0D1-4E4D-BF68-43C94311B46E}|Inventra.Infrastructure\\Inventra.Infrastructure.csproj|solutionrelative:inventra.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEFFFEC4-5079-409F-89DD-D3B69E03F849}|Inventra.Application\\Inventra.Application.csproj|d:\\projects\\inventory-order-management\\inventra\\inventra\\inventra.application\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEFFFEC4-5079-409F-89DD-D3B69E03F849}|Inventra.Application\\Inventra.Application.csproj|solutionrelative:inventra.application\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E6A236D5-A0D1-4E4D-BF68-43C94311B46E}|Inventra.Infrastructure\\Inventra.Infrastructure.csproj|d:\\projects\\inventory-order-management\\inventra\\inventra\\inventra.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,20 +62,12 @@
       "RelativeMoniker": "D:0:0:{AEFFFEC4-5079-409F-89DD-D3B69E03F849}|Inventra.Application\\Inventra.Application.csproj|solutionrelative:inventra.application\\services\\passwordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F6F4C61-5691-454F-811A-3EE3C483E271}|Inventra\\Inventra.API.csproj|d:\\projects\\inventory-order-management\\inventra\\inventra\\inventra\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F6F4C61-5691-454F-811A-3EE3C483E271}|Inventra\\Inventra.API.csproj|solutionrelative:inventra\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AEFFFEC4-5079-409F-89DD-D3B69E03F849}|Inventra.Application\\Inventra.Application.csproj|d:\\projects\\inventory-order-management\\inventra\\inventra\\inventra.application\\interfaces\\ipasswordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AEFFFEC4-5079-409F-89DD-D3B69E03F849}|Inventra.Application\\Inventra.Application.csproj|solutionrelative:inventra.application\\interfaces\\ipasswordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AEFFFEC4-5079-409F-89DD-D3B69E03F849}|Inventra.Application\\Inventra.Application.csproj|d:\\projects\\inventory-order-management\\inventra\\inventra\\inventra.application\\dtos\\registeruserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AEFFFEC4-5079-409F-89DD-D3B69E03F849}|Inventra.Application\\Inventra.Application.csproj|solutionrelative:inventra.application\\dtos\\registeruserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AEFFFEC4-5079-409F-89DD-D3B69E03F849}|Inventra.Application\\Inventra.Application.csproj|d:\\projects\\inventory-order-management\\inventra\\inventra\\inventra.application\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AEFFFEC4-5079-409F-89DD-D3B69E03F849}|Inventra.Application\\Inventra.Application.csproj|solutionrelative:inventra.application\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E6A236D5-A0D1-4E4D-BF68-43C94311B46E}|Inventra.Infrastructure\\Inventra.Infrastructure.csproj|d:\\projects\\inventory-order-management\\inventra\\inventra\\inventra.infrastructure\\inventra.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -113,11 +121,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "ProductDetailsDTO.cs",
               "DocumentMoniker": "D:\\Projects\\Inventory-Order-Management\\Inventra\\Inventra\\Inventra.Application\\DTOs\\ProductDetailsDTO.cs",
               "RelativeDocumentMoniker": "Inventra.Application\\DTOs\\ProductDetailsDTO.cs",
@@ -130,20 +138,30 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "AuthController.cs",
               "DocumentMoniker": "D:\\Projects\\Inventory-Order-Management\\Inventra\\Inventra\\Inventra\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Inventra\\Controllers\\AuthController.cs",
               "ToolTip": "D:\\Projects\\Inventory-Order-Management\\Inventra\\Inventra\\Inventra\\Controllers\\AuthController.cs",
               "RelativeToolTip": "Inventra\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAlwCcAAABJAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAowDEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-23T15:40:47.836Z",
               "IsPinned": true
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Projects\\Inventory-Order-Management\\Inventra\\Inventra\\Inventra\\appsettings.json",
+              "RelativeDocumentMoniker": "Inventra\\appsettings.json",
+              "ToolTip": "D:\\Projects\\Inventory-Order-Management\\Inventra\\Inventra\\Inventra\\appsettings.json",
+              "RelativeToolTip": "Inventra\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-23T15:40:47.914Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -155,44 +173,83 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "JWTService.cs",
+              "DocumentMoniker": "D:\\Projects\\Inventory-Order-Management\\Inventra\\Inventra\\Inventra.Infrastructure\\Security\\JWTService.cs",
+              "RelativeDocumentMoniker": "Inventra.Infrastructure\\Security\\JWTService.cs",
+              "ToolTip": "D:\\Projects\\Inventory-Order-Management\\Inventra\\Inventra\\Inventra.Infrastructure\\Security\\JWTService.cs",
+              "RelativeToolTip": "Inventra.Infrastructure\\Security\\JWTService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwBsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T02:18:27.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "IJWTService.cs",
+              "DocumentMoniker": "D:\\Projects\\Inventory-Order-Management\\Inventra\\Inventra\\Inventra.Application\\Interfaces\\IJWTService.cs",
+              "RelativeDocumentMoniker": "Inventra.Application\\Interfaces\\IJWTService.cs",
+              "ToolTip": "D:\\Projects\\Inventory-Order-Management\\Inventra\\Inventra\\Inventra.Application\\Interfaces\\IJWTService.cs",
+              "RelativeToolTip": "Inventra.Application\\Interfaces\\IJWTService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T05:08:17.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projects\\Inventory-Order-Management\\Inventra\\Inventra\\Inventra\\Program.cs",
+              "RelativeDocumentMoniker": "Inventra\\Program.cs",
+              "ToolTip": "D:\\Projects\\Inventory-Order-Management\\Inventra\\Inventra\\Inventra\\Program.cs",
+              "RelativeToolTip": "Inventra\\Program.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADAAAAB1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T15:40:47.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "RegisterUserService.cs",
               "DocumentMoniker": "D:\\Projects\\Inventory-Order-Management\\Inventra\\Inventra\\Inventra.Application\\Services\\RegisterUserService.cs",
               "RelativeDocumentMoniker": "Inventra.Application\\Services\\RegisterUserService.cs",
               "ToolTip": "D:\\Projects\\Inventory-Order-Management\\Inventra\\Inventra\\Inventra.Application\\Services\\RegisterUserService.cs",
               "RelativeToolTip": "Inventra.Application\\Services\\RegisterUserService.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAgwFcAAABCAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAnwE4AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T15:40:47.852Z"
+              "WhenOpened": "2026-05-23T15:40:47.852Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\Projects\\Inventory-Order-Management\\Inventra\\Inventra\\Inventra.Domain\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "Inventra.Domain\\Entities\\User.cs",
-              "ToolTip": "D:\\Projects\\Inventory-Order-Management\\Inventra\\Inventra\\Inventra.Domain\\Entities\\User.cs",
-              "RelativeToolTip": "Inventra.Domain\\Entities\\User.cs",
-              "ViewState": "AgIAAAEAAAAAMzMzMzMLwAIAAAASAAAAAAAAAA==",
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "D:\\Projects\\Inventory-Order-Management\\Inventra\\Inventra\\Inventra.Application\\DTOs\\UserDTO.cs",
+              "RelativeDocumentMoniker": "Inventra.Application\\DTOs\\UserDTO.cs",
+              "ToolTip": "D:\\Projects\\Inventory-Order-Management\\Inventra\\Inventra\\Inventra.Application\\DTOs\\UserDTO.cs",
+              "RelativeToolTip": "Inventra.Application\\DTOs\\UserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T15:40:47.899Z"
+              "WhenOpened": "2026-05-24T04:15:05.351Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "D:\\Projects\\Inventory-Order-Management\\Inventra\\Inventra\\Inventra.Infrastructure\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "Inventra.Infrastructure\\Repositories\\UserRepository.cs",
               "ToolTip": "D:\\Projects\\Inventory-Order-Management\\Inventra\\Inventra\\Inventra.Infrastructure\\Repositories\\UserRepository.cs",
               "RelativeToolTip": "Inventra.Infrastructure\\Repositories\\UserRepository.cs",
-              "ViewState": "AgIAACgAAACAmZmZmZknwDoAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAACAmZmZmZknwCoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T15:40:47.899Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-23T15:40:47.899Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "D:\\Projects\\Inventory-Order-Management\\Inventra\\Inventra\\Inventra.Application\\Interfaces\\IUserRepository.cs",
               "RelativeDocumentMoniker": "Inventra.Application\\Interfaces\\IUserRepository.cs",
@@ -204,7 +261,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Projects\\Inventory-Order-Management\\Inventra\\Inventra\\Inventra.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Inventra.Domain\\Entities\\User.cs",
+              "ToolTip": "D:\\Projects\\Inventory-Order-Management\\Inventra\\Inventra\\Inventra.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "Inventra.Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAAEAAAAAMzMzMzMLwAIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T15:40:47.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "D:\\Projects\\Inventory-Order-Management\\Inventra\\Inventra\\Inventra.Infrastructure\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Inventra.Infrastructure\\Data\\AppDbContext.cs",
@@ -216,19 +285,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Projects\\Inventory-Order-Management\\Inventra\\Inventra\\Inventra\\appsettings.json",
-              "RelativeDocumentMoniker": "Inventra\\appsettings.json",
-              "ToolTip": "D:\\Projects\\Inventory-Order-Management\\Inventra\\Inventra\\Inventra\\appsettings.json",
-              "RelativeToolTip": "Inventra\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-05-23T15:40:47.914Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "ExecutionContext.cs",
               "DocumentMoniker": "C:\\Users\\Avinash Kumar\\AppData\\Local\\SourceServer\\a16a92ac24f57c95fe31c73e00e9e898b8254ebb5bc7b8b052cd1a87aca83a7a\\src\\libraries\\System.Private.CoreLib\\src\\System\\Threading\\ExecutionContext.cs",
               "ToolTip": "C:\\Users\\Avinash Kumar\\AppData\\Local\\SourceServer\\a16a92ac24f57c95fe31c73e00e9e898b8254ebb5bc7b8b052cd1a87aca83a7a\\src\\libraries\\System.Private.CoreLib\\src\\System\\Threading\\ExecutionContext.cs",
@@ -238,7 +295,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "AppDbContextModelSnapshot.cs",
               "DocumentMoniker": "D:\\Projects\\Inventory-Order-Management\\Inventra\\Inventra\\Inventra.Infrastructure\\Migrations\\AppDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "Inventra.Infrastructure\\Migrations\\AppDbContextModelSnapshot.cs",
@@ -250,7 +307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "20260526115526_AddUserTable.cs",
               "DocumentMoniker": "D:\\Projects\\Inventory-Order-Management\\Inventra\\Inventra\\Inventra.Infrastructure\\Migrations\\20260526115526_AddUserTable.cs",
               "RelativeDocumentMoniker": "Inventra.Infrastructure\\Migrations\\20260526115526_AddUserTable.cs",
@@ -262,7 +319,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "RegisterUserDTO.cs",
               "DocumentMoniker": "D:\\Projects\\Inventory-Order-Management\\Inventra\\Inventra\\Inventra.Application\\DTOs\\RegisterUserDTO.cs",
               "RelativeDocumentMoniker": "Inventra.Application\\DTOs\\RegisterUserDTO.cs",
@@ -274,7 +331,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "PasswordService.cs",
               "DocumentMoniker": "D:\\Projects\\Inventory-Order-Management\\Inventra\\Inventra\\Inventra.Application\\Services\\PasswordService.cs",
               "RelativeDocumentMoniker": "Inventra.Application\\Services\\PasswordService.cs",
@@ -286,19 +343,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Projects\\Inventory-Order-Management\\Inventra\\Inventra\\Inventra\\Program.cs",
-              "RelativeDocumentMoniker": "Inventra\\Program.cs",
-              "ToolTip": "D:\\Projects\\Inventory-Order-Management\\Inventra\\Inventra\\Inventra\\Program.cs",
-              "RelativeToolTip": "Inventra\\Program.cs",
-              "ViewState": "AgIAAAwAAACAZmZmZmYkwCEAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T15:40:47.867Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "IPasswordService.cs",
               "DocumentMoniker": "D:\\Projects\\Inventory-Order-Management\\Inventra\\Inventra\\Inventra.Application\\Interfaces\\IPasswordService.cs",
               "RelativeDocumentMoniker": "Inventra.Application\\Interfaces\\IPasswordService.cs",
@@ -310,19 +355,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "UserDTO.cs",
-              "DocumentMoniker": "D:\\Projects\\Inventory-Order-Management\\Inventra\\Inventra\\Inventra.Application\\DTOs\\UserDTO.cs",
-              "RelativeDocumentMoniker": "Inventra.Application\\DTOs\\UserDTO.cs",
-              "ToolTip": "D:\\Projects\\Inventory-Order-Management\\Inventra\\Inventra\\Inventra.Application\\DTOs\\UserDTO.cs",
-              "RelativeToolTip": "Inventra.Application\\DTOs\\UserDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-24T04:15:05.351Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "Inventra.Infrastructure.csproj",
               "DocumentMoniker": "D:\\Projects\\Inventory-Order-Management\\Inventra\\Inventra\\Inventra.Infrastructure\\Inventra.Infrastructure.csproj",
               "RelativeDocumentMoniker": "Inventra.Infrastructure\\Inventra.Infrastructure.csproj",
@@ -334,7 +367,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "LoginDTO.cs",
               "DocumentMoniker": "D:\\Projects\\Inventory-Order-Management\\Inventra\\Inventra\\Inventra.Application\\DTOs\\LoginDTO.cs",
               "RelativeDocumentMoniker": "Inventra.Application\\DTOs\\LoginDTO.cs",
@@ -346,7 +379,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "Inventory.cs",
               "DocumentMoniker": "D:\\Projects\\Inventory-Order-Management\\Inventra\\Inventra\\Inventra.Domain\\Entities\\Inventory.cs",
               "RelativeDocumentMoniker": "Inventra.Domain\\Entities\\Inventory.cs",
@@ -358,7 +391,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "PagedResult.cs",
               "DocumentMoniker": "D:\\Projects\\Inventory-Order-Management\\Inventra\\Inventra\\Inventra.Shared\\Models\\PagedResult.cs",
               "RelativeDocumentMoniker": "Inventra.Shared\\Models\\PagedResult.cs",
@@ -370,7 +403,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "ProductController.cs",
               "DocumentMoniker": "D:\\Projects\\Inventory-Order-Management\\Inventra\\Inventra\\Inventra\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "Inventra\\Controllers\\ProductController.cs",
@@ -378,11 +411,12 @@
               "RelativeToolTip": "Inventra\\Controllers\\ProductController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T15:40:47.82Z"
+              "WhenOpened": "2026-05-23T15:40:47.82Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "D:\\Projects\\Inventory-Order-Management\\Inventra\\Inventra\\Inventra.Infrastructure\\Repositories\\ProductRepository.cs",
               "RelativeDocumentMoniker": "Inventra.Infrastructure\\Repositories\\ProductRepository.cs",
@@ -390,11 +424,12 @@
               "RelativeToolTip": "Inventra.Infrastructure\\Repositories\\ProductRepository.cs",
               "ViewState": "AgIAAGAAAAAAAAAAAAAAwJMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T15:40:47.789Z"
+              "WhenOpened": "2026-05-23T15:40:47.789Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "ProductService.cs",
               "DocumentMoniker": "D:\\Projects\\Inventory-Order-Management\\Inventra\\Inventra\\Inventra.Application\\Services\\ProductService.cs",
               "RelativeDocumentMoniker": "Inventra.Application\\Services\\ProductService.cs",
@@ -406,7 +441,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "IProductDetailsRepository.cs",
               "DocumentMoniker": "D:\\Projects\\Inventory-Order-Management\\Inventra\\Inventra\\Inventra.Application\\Interfaces\\IProductDetailsRepository.cs",
               "RelativeDocumentMoniker": "Inventra.Application\\Interfaces\\IProductDetailsRepository.cs",
@@ -418,19 +453,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "Product.cs",
               "DocumentMoniker": "D:\\Projects\\Inventory-Order-Management\\Inventra\\Inventra\\Inventra.Domain\\Entities\\Product.cs",
               "RelativeDocumentMoniker": "Inventra.Domain\\Entities\\Product.cs",
               "ToolTip": "D:\\Projects\\Inventory-Order-Management\\Inventra\\Inventra\\Inventra.Domain\\Entities\\Product.cs",
               "RelativeToolTip": "Inventra.Domain\\Entities\\Product.cs",
-              "ViewState": "AgIAABYAAABgZmZmZmY7wCMAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAADAzMzMzMwkwCMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-23T15:40:47.836Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "UpdateProductDTO.cs",
               "DocumentMoniker": "D:\\Projects\\Inventory-Order-Management\\Inventra\\Inventra\\Inventra.Application\\DTOs\\UpdateProductDTO.cs",
               "RelativeDocumentMoniker": "Inventra.Application\\DTOs\\UpdateProductDTO.cs",

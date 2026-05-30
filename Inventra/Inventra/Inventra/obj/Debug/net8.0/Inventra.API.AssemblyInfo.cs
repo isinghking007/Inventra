@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Inventra.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7629cddaaf4544b718122da4e4b11dda958c85a4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2f0fd5009923c70def3c072edb59d8660b036a6d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Inventra.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Inventra.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

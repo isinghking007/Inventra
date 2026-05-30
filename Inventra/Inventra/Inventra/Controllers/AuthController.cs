@@ -1,5 +1,6 @@
 ﻿using Inventra.Application.DTOs;
 using Inventra.Application.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Inventra.API.Controllers
@@ -47,6 +48,7 @@ namespace Inventra.API.Controllers
             }
         }
 
+        [Authorize]
         [HttpGet("AllUsers")]
         public async Task<IActionResult> GetAllUsers()
         {
