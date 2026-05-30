@@ -14,10 +14,12 @@ namespace Inventra.Application.Services
     {
         private readonly IUserRepository _userRepository;
         private readonly IPasswordService _passwordService;
-        public RegisterUserService(IUserRepository userRepository,IPasswordService passwordService)
+        private readonly IJWTService _jwtService;
+        public RegisterUserService(IUserRepository userRepository,IPasswordService passwordService,IJWTService jwtService)
         {
             _userRepository = userRepository;
             _passwordService = passwordService;
+            _jwtService = jwtService;
         }
 
         public async Task RegisterUserAsync(RegisterUserDTO registerUserDTO)
@@ -56,7 +58,7 @@ namespace Inventra.Application.Services
 
         public async Task<UserDTO> LoginUserAsync(LoginDTO loginDTO)
         {
-            var phoneRegistered = await _userRepository.IsPhoneRegistered(loginDTO.Phone);
+           // var phoneRegistered = await _userRepository.IsPhoneRegistered(loginDTO.Phone);
             var userDetails = await _userRepository.GetUserByPhoneAsync(loginDTO.Phone);
             if (userDetails == null)
             {
@@ -68,11 +70,13 @@ namespace Inventra.Application.Services
             if (passwordMatch)
             {
               // var userDetails= await _userRepository.GetUserByPhoneAsync(loginDTO.Phone);
+                var jwtresult = _jwtService.GenerateToken(userDetails);
                 return new UserDTO
                 {
                     FullName = userDetails.FullName,
                     Phone = userDetails.Phone,
-                    Address=userDetails.Address
+                    Address=userDetails.Address,
+                    Token = jwtresult
                 };
             }
             else

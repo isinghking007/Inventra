@@ -11,6 +11,7 @@ import { Router } from '@angular/router';
 import { APIServiceService } from '../../../Services/apiservice.service';
 import { MatDialog } from '@angular/material/dialog';
 import { SuccesspopupComponent } from '../../../Shared/SuccessPopup/successpopup/successpopup.component';
+import { AuthService } from '../../../Services/auth.service';
 
 export interface Tile {
   color: string;
@@ -31,7 +32,7 @@ export class LoginComponent {
 
   private dialog = inject(MatDialog);
   RegistrationForm!:FormGroup
-    constructor(private router:Router,private service:APIServiceService){}
+    constructor(private router:Router,private service:APIServiceService,private authService:AuthService){}
   
     ngOnInit(){
       this.RegistrationForm=new FormGroup({
@@ -57,6 +58,10 @@ export class LoginComponent {
       this.service.login(this.RegistrationForm.value).subscribe(
         {next:(data)=>{
         console.log("login data"+data);
+        this.authService.saveLoginDetails(data);
+        console.log(localStorage);
+        console.log(this.authService.decodeToken());
+        console.log(this.authService.isTokenExpired());
         this.dialog.open(SuccesspopupComponent,{
           width:'400px',
           disableClose: true,

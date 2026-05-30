@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Router, RouterOutlet } from '@angular/router';
 import { RegistrationComponent } from './UserManagement/Authentication/registration/registration.component';
+import { AuthService } from './Services/auth.service';
 
 @Component({
   selector: 'app-root',
@@ -11,4 +12,17 @@ import { RegistrationComponent } from './UserManagement/Authentication/registrat
 })
 export class AppComponent {
   title = 'InventraUI';
+
+  constructor(private authService:AuthService,private router:Router){}
+  ngOnInit():void{
+
+  
+    if(this.authService.isTokenExpired())
+    {
+      alert('Session Expired, Login again')
+      this.authService.logOut();
+      this.router.navigate(['auth/login'])
+    }
+
+  }
 }
