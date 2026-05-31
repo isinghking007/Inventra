@@ -19,9 +19,9 @@ export class AppComponent {
   
     if(this.authService.isTokenExpired())
     {
-      alert('Session Expired, Login again')
-      this.authService.logOut();
-      this.router.navigate(['auth/login'])
+      // alert('Session Expired, Login again')
+      // this.authService.logOut();
+      // this.router.navigate(['auth/login'])
     }
 
   }
