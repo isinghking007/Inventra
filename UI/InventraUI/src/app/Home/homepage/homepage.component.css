@@ -1,6 +1,6 @@
 .example-container {
     width: auto;
-    height: 500px;
+    height: stretch;
     /* margin: 10px; */
     border: 1px solid #555;
     /* The background property is added to clearly distinguish the borders between drawer and main
@@ -43,13 +43,18 @@ mat-grid-tile {
     border: 1px solid red;
 }
 
+.homepage-content-container{
+      padding-right: 10px;
+    padding-top: 10px;
+}
+
 .header-summary {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
     height: 70px;
-    width: 100%;
+   
 }
 
 .header-summary-details {
@@ -157,7 +162,8 @@ mat-card-header{
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
-  padding:16px 0;
+      justify-content: space-around;
+  padding:20px 0;
 }
 
 .summary-card {
@@ -221,4 +227,35 @@ mat-card-header{
 
 .negative {
   color: #d32f2f;
+}
+
+.chart-row {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+.chart-header h3{
+      font-weight: 500;
+    font-size: 28px;
+    color: #b11313;
+}
+.overview-card {
+  width: 350px;
+  padding: 20px;
+}
+
+.recovery-card {
+  flex: 1;
+  padding:10px;
+max-width: 65%;
+}
+
+canvas {
+  max-height: 250px;
+}
+
+.chart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

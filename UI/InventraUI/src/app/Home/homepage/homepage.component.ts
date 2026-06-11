@@ -6,16 +6,21 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button'
 import { MatGridList, MatGridTile, MatGridTileFooterCssMatStyler, MatGridTileHeaderCssMatStyler } from "@angular/material/grid-list";
 import { MatDatepickerModule } from '@angular/material/datepicker';
-import { MatNativeDateModule } from '@angular/material/core';
+import { MatNativeDateModule, MatOption } from '@angular/material/core';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { FormsModule } from '@angular/forms';
 import { MatCardHeader, MatCardModule } from "@angular/material/card";
+import { BaseChartDirective } from 'ng2-charts';
+import { Chart, registerables } from 'chart.js';
+import {MatSelect} from "@angular/material/select"
 
+Chart.register(...registerables);
 @Component({
   selector: 'app-homepage',
   standalone: true,
   imports: [DatePipe, MatSidenavModule, MatIconModule, MatButtonModule, MatGridList, MatGridTile,
-    MatGridTileHeaderCssMatStyler, MatGridTileFooterCssMatStyler, MatDatepickerModule, MatNativeDateModule, FormsModule, MatFormFieldModule, MatCardHeader, MatCardModule],
+    MatGridTileHeaderCssMatStyler, MatGridTileFooterCssMatStyler, MatDatepickerModule, MatNativeDateModule, FormsModule, MatFormFieldModule,
+    MatCardHeader, MatCardModule, BaseChartDirective, MatSelect, MatOption],
   templateUrl: './homepage.component.html',
   styleUrl: './homepage.component.css'
 })
@@ -38,6 +43,52 @@ export class HomepageComponent {
   { iconname: 'trending_up', title: 'Monthly Profit', value: '₹2,20,000', statusIcon: 'arrow_drop_up', statusDetails: '8.2% from last month' }
 
   ]
+
+
+  businessOverviewData = {
+    labels: ['Fertilizer', 'Mushroom', 'Strawberry'],
+    datasets: [
+      {
+        data: [40, 30, 30],
+        backgroundColor: [
+          '#3b82f6',
+          '#16a34a',
+          '#ef4444'
+        ]
+      }
+    ]
+  };
+
+  recoveryData = {
+    labels: [
+      '1 May',
+      '6 May',
+      '11 May',
+      '16 May',
+      '21 May',
+      '26 May',
+      '31 May'
+    ],
+    datasets: [
+      {
+        label: 'Recovery',
+        data: [
+          80000,
+          120000,
+          70000,
+          85000,
+          110000,
+          50000,
+          95000
+        ]
+      }
+    ]
+  };
+
+  barChartOptions = {
+    responsive: true,
+    maintainAspectRatio: false
+  };
 
   constructor(private authservice: AuthService) { }
 

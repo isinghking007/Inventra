@@ -21,8 +21,8 @@
     <mat-drawer-content>
 
         <div class="header">
-            <mat-grid-list cols="1" rowHeight="150px">
-                <mat-grid-tile rowHeight="100px">
+            <div class="homepage-content-container">
+                <div rowHeight="fit">
                     <div class="header-summary">
 
                         <div class="header-summary-details">
@@ -67,8 +67,8 @@
                         </div>
 
                     </div>
-                </mat-grid-tile>
-                <mat-grid-tile rowHeight="150px">
+                </div>
+                <div rowHeight="150px">
                     <div class="summary-cards">
                         @for(item of summaryCard; track item)
                         {
@@ -88,14 +88,39 @@
 
                             <div class="status positive">
                                 <mat-icon>{{item.statusIcon}}</mat-icon>
-                               {{item.statusDetails}}
+                                {{item.statusDetails}}
                             </div>
                         </mat-card>
                         }
                     </div>
-                </mat-grid-tile>
-                <mat-grid-tile>cards 3</mat-grid-tile>
-            </mat-grid-list>
+                </div>
+                <div>
+                    <div class="chart-row">
+                        <mat-card class="overview-card">
+                            <canvas baseChart [data]="businessOverviewData" [type]="'doughnut'">
+                            </canvas>
+                        </mat-card>
+
+                        <mat-card class="recovery-card">
+                            <!-- Bar Chart -->
+                            <div class="chart-header">
+                                <h3>Recovery Overview (This Month)</h3>
+
+                                <mat-form-field appearance="outline">
+                                    <mat-select value="month">
+                                        <mat-option value="month">
+                                            This Month
+                                        </mat-option>
+                                    </mat-select>
+                                </mat-form-field>
+                            </div>
+
+                            <canvas baseChart [data]="recoveryData" [options]="barChartOptions" [type]="'bar'">
+                            </canvas>
+                        </mat-card>
+                    </div>
+                </div>
+            </div>
         </div>
 
     </mat-drawer-content>

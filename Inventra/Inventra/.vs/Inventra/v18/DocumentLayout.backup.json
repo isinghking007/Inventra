@@ -165,7 +165,7 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Bookmark",
@@ -174,6 +174,10 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
               "$type": "Document",
@@ -185,8 +189,7 @@
               "RelativeToolTip": "Inventra.Infrastructure\\Security\\JWTService.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAQwBsAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-30T02:18:27.537Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-30T02:18:27.537Z"
             },
             {
               "$type": "Document",
@@ -198,8 +201,7 @@
               "RelativeToolTip": "Inventra.Application\\Interfaces\\IJWTService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T05:08:17.573Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-28T05:08:17.573Z"
             },
             {
               "$type": "Document",
@@ -211,8 +213,7 @@
               "RelativeToolTip": "Inventra\\Program.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAADAAAAB1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T15:40:47.867Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-23T15:40:47.867Z"
             },
             {
               "$type": "Document",
@@ -224,8 +225,7 @@
               "RelativeToolTip": "Inventra.Application\\Services\\RegisterUserService.cs",
               "ViewState": "AgIAADYAAAAAAAAAAAAnwE4AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T15:40:47.852Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-23T15:40:47.852Z"
             },
             {
               "$type": "Document",
@@ -415,8 +415,7 @@
               "RelativeToolTip": "Inventra\\Controllers\\ProductController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T15:40:47.82Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-23T15:40:47.82Z"
             },
             {
               "$type": "Document",
@@ -428,8 +427,7 @@
               "RelativeToolTip": "Inventra.Infrastructure\\Repositories\\ProductRepository.cs",
               "ViewState": "AgIAAGAAAAAAAAAAAAAAwJMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T15:40:47.789Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-23T15:40:47.789Z"
             },
             {
               "$type": "Document",
