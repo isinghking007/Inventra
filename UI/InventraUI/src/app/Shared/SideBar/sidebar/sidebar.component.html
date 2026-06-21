@@ -1,0 +1,26 @@
+<mat-drawer-container>
+    <mat-drawer mode="side" opened>
+        <div class="menu-item">
+            <div class="menu-item-buttons">
+                @for(item of drawer;track item)
+                {
+                <button mat-button>
+                    <mat-icon>{{item.icon}}</mat-icon>
+                    <span (click)="NavigateSections(item.name)">{{item.name}}</span></button>
+                }
+            </div>
+        </div>
+    </mat-drawer>
+    <mat-drawer-content>
+        <div class="header">
+            <div class="homepage-content-container">
+                <div rowHeight="fit">
+                    <app-header [title]="title" [subtitle]="subtitle" [userName]="currentUser" [userRole]="userRole"
+                        [userProfileImage]="userImage"></app-header>
+                </div>
+            </div>
+        </div>
+
+        <router-outlet></router-outlet>
+    </mat-drawer-content>
+</mat-drawer-container>
