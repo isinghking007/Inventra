@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { DatePipe } from '@angular/common';
+import { Router, RouterOutlet } from '@angular/router';
 import { AuthService } from '../../Services/auth.service';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
@@ -13,6 +14,7 @@ import { MatCardHeader, MatCardModule } from "@angular/material/card";
 import { BaseChartDirective } from 'ng2-charts';
 import { Chart, registerables } from 'chart.js';
 import {MatSelect} from "@angular/material/select"
+import { HeaderComponent } from "../../Shared/Header/header/header.component";
 
 Chart.register(...registerables);
 @Component({
@@ -20,12 +22,17 @@ Chart.register(...registerables);
   standalone: true,
   imports: [DatePipe, MatSidenavModule, MatIconModule, MatButtonModule, MatGridList, MatGridTile,
     MatGridTileHeaderCssMatStyler, MatGridTileFooterCssMatStyler, MatDatepickerModule, MatNativeDateModule, FormsModule, MatFormFieldModule,
-    MatCardHeader, MatCardModule, BaseChartDirective, MatSelect, MatOption],
+    MatCardHeader, MatCardModule, BaseChartDirective, MatSelect, MatOption, HeaderComponent],
   templateUrl: './homepage.component.html',
   styleUrl: './homepage.component.css'
 })
 export class HomepageComponent {
 
+   userImage: string = 'https://material.angular.dev/assets/img/examples/shiba1.jpg';
+   title:string='Dashboard'
+   subtitle:string='Welcome back, Avinash!'
+   userRole:string='Admin'
+   currentUser:string='Avinash'
   selectedDate = new Date();
   drawer = [{ name: "Dashboard", icon: "dashboard" }, { name: "Customers", icon: "group" },
   { name: "Stock", icon: "inventory_2" }, { name: "Sales/Invoice", icon: "receipt_long" },
@@ -90,7 +97,7 @@ export class HomepageComponent {
     maintainAspectRatio: false
   };
 
-  constructor(private authservice: AuthService) { }
+  constructor(private authservice: AuthService , private router:Router) { }
 
   ngOnInit(): void {
 
@@ -99,5 +106,10 @@ export class HomepageComponent {
   }
   onDateChange(event: any) {
     this.selectedDate = event.value;
+  }
+
+  NavigateSections(path:any){
+    console.log("navigate section path = "+path);
+    this.router.navigate([path])
   }
 }

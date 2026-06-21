@@ -3,27 +3,25 @@
   {
     <mat-drawer mode="side" opened>{{item}}</mat-drawer>
 } -->
-    <mat-drawer mode="side" opened>
+    <!-- <mat-drawer mode="side" opened>
         <div class="menu-item">
-            <!-- <mat-icon>dashboard</mat-icon>
-  <span>Dashboard</span> -->
             <div class="menu-item-buttons">
                 @for(item of drawer;track item)
                 {
                 <button mat-button>
                     <mat-icon>{{item.icon}}</mat-icon>
-                    <span>{{item.name}}</span></button>
+                    <span (click)="NavigateSections(item.name)" >{{item.name}}</span></button>
                 }
             </div>
         </div>
-    </mat-drawer>
+    </mat-drawer> -->
 
     <mat-drawer-content>
 
         <div class="header">
             <div class="homepage-content-container">
                 <div rowHeight="fit">
-                    <div class="header-summary">
+                    <!-- <div class="header-summary">
 
                         <div class="header-summary-details">
                             <button mat-icon-button>
@@ -66,7 +64,8 @@
                             </mat-card-header>
                         </div>
 
-                    </div>
+                    </div> -->
+                    <!-- <app-header [title]="title"[subtitle]="subtitle"[userName]="currentUser"[userRole]="userRole"[userProfileImage]="userImage"></app-header> -->
                 </div>
                 <div rowHeight="150px">
                     <div class="summary-cards">

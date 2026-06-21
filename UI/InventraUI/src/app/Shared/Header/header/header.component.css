@@ -1,0 +1,109 @@
+.header-summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 70px;
+   
+}
+.header-summary-details {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-user-details {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+h2,
+h3 {
+    margin: 0;
+}
+.welcome-user{
+        display: flex;
+    flex-direction: column;
+}
+.welcome-user mat-card-title{
+    font-size: 18px;
+    font-weight: 500;
+}
+.welcome-user mat-card-subtitle{
+        font-size: 12px;
+}
+
+.date-picker{
+        display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 7px;
+}
+
+.date-picker span{
+     color:black !important;
+}
+
+.date-selector {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    width: fit-content;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.calendar-icon,
+.dropdown-icon {
+    font-size: 18px;
+    width: 18px;
+    height: 18px;
+}
+
+mat-card-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+       align-items: center;
+       gap:5px;
+  
+}
+.profile-card {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  padding: 3px;
+  background: #e5e5e5;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: none;
+}
+
+.profile-card img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0;
+}
+
+.profile-card-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.profile-card-text mat-card-title {
+    font-weight: 500;
+    font-size: 14px;
+}
+.profile-card-text mat-card-subtitle{
+    font-size: 10px;
+    color: #6e6868;
+}
+
